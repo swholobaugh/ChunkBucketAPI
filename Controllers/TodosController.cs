@@ -20,8 +20,7 @@ namespace Backend.Controllers
         public TodosController(BackendDbContext context)
         {
             _context = context;
-            var service = new AddTodoService(_context);
-            service.CreateTodo();
+            
         }
 
         // GET: api/Todos

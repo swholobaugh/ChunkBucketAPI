@@ -12,6 +12,6 @@ namespace Backend.Data.Models
         public bool IsComplete { get; set; }
 
         //Relationships
-        public ICollection<TodoList> UserLink { get; set; }
+        public int UserId { get; set; }
     }
 }

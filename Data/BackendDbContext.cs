@@ -12,7 +12,7 @@ namespace Backend.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<TodoList>().HasKey(x => new { x.TodoId, x.UserId });
+            //modelBuilder.Entity<TodoList>().HasKey(x => new { x.TodoId, x.UserId });
         }
     }
 }

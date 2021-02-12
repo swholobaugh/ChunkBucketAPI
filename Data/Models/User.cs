@@ -8,7 +8,7 @@ namespace Backend.Data.Models
         public string Name { get; set; }
         
         //Relationships
-        public ICollection<TodoList> TodoListLink { get; set; }
+        public ICollection<Todo> TodoList { get; set; }
 
     }
 }
